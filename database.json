@@ -1,0 +1,52 @@
+{
+    "animals": [
+        { "id": 1, "name": "Doodles", "breed": "Poodle"},
+        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
+        { "id": 3, "name": "Esme", "breed": "Pitbull" },
+        { "id": 4, "name": "Bruno", "breed": "Dalmation" },
+        { "id": 5, "name": "Rio", "breed": "German Sheffard" },
+        { "id": 6, "name": "Peach", "breed": "Pomelian" },
+        { "id": 7, "name": "Sweety", "breed": "Poodle" },
+        { "id": 8, "name": "Bronze", "breed": "Pitbull" },    
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Luke Skywalker",
+            "address": "976 Tatooine Dr."
+        },
+        {
+            "id": 2,
+            "name": "Padmé Amidala",
+            "address": "1211 Naboo Lane"
+        },
+        {
+            "id": 3,
+            "name": "Chris Baldwin",
+            "address": "3621 Swanvale Ln"
+        },
+        {
+            "id": 4,
+            "name": "Don Matt",
+            "address": "4620 Echelon Circle"
+        },
+        {
+            "id": 5,
+            "name": "Katy Michell",
+            "address": "1821 Long Dr"
+        }
+    ],
+    "employees": [],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        }
+    ]
+}
