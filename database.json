@@ -1,13 +1,13 @@
 {
     "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" },
-        { "id": 4, "name": "Bruno", "breed": "Dalmation" },
-        { "id": 5, "name": "Rio", "breed": "German Sheffard" },
-        { "id": 6, "name": "Peach", "breed": "Pomelian" },
-        { "id": 7, "name": "Sweety", "breed": "Poodle" },
-        { "id": 8, "name": "Bronze", "breed": "Pitbull" },    
+        { "id": 1, "name": "Doodles", "breed": "Poodle", "locationId": 2, "customerId": 3},
+        { "id": 2, "name": "Parsley", "breed": "Great Dane", "locationId": 1, "customerId": 2 },
+        { "id": 3, "name": "Esme", "breed": "Pitbull", "locationId": 3, "customerId": 4 },
+        { "id": 4, "name": "Bruno", "breed": "Dalmation", "locationId": 3, "customerId": 5 },
+        { "id": 5, "name": "Rio", "breed": "German Sheffard", "locationId": 1, "customerId": 3 },
+        { "id": 6, "name": "Peach", "breed": "Pomelian", "locationId": 4, "customerId": 2 },
+        { "id": 7, "name": "Sweety", "breed": "Poodle", "locationId": 5, "customerId": 1 },
+        { "id": 8, "name": "Bronze", "breed": "Pitbull", "locationId": 2, "customerId": 4 }    
     ],
     "customers": [
         {
@@ -36,7 +36,33 @@
             "address": "1821 Long Dr"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Hannah James",
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Hillary Green",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Max Kurtz",
+            "locationId": 3
+        },
+        {
+            "id": 4,
+            "name": "Chelsea Adams",
+            "locationId": 5
+        },
+        {
+            "id": 5,
+            "name": "Matt Roreich",
+            "locationId": 4
+        }
+    ],
     "locations": [
         {
             "id": 1,
@@ -47,6 +73,21 @@
             "id": 2,
             "name": "Nashville South",
             "address": "209 Emory Drive"
+        },
+        {
+            "id": 3,
+            "name": "Nashville East",
+            "address": "101 Arborbend Drive"
+        },
+        {
+            "id": 4,
+            "name": "Nashville West",
+            "address": "3621 Blvd"
+        },
+        {
+            "id": 5,
+            "name": "Nashville SouthWest",
+            "address": "Hillary Drive"
         }
     ]
 }
