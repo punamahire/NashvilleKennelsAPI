@@ -41,33 +41,62 @@
       "locationId": 2,
       "customerId": 1,
       "id": 6
+    },
+    {
+      "name": "Sweet Cupcake",
+      "breed": "Great Dane",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 7
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Luke Skywalker",
-      "address": "976 Tatooine Dr."
+      "address": "976 Tatooine Dr.",
+      "email": "aaa@kennels.com",
+      "locationId": 3
     },
     {
       "id": 2,
       "name": "Padmé Amidala",
-      "address": "1211 Naboo Lane"
+      "address": "1211 Naboo Lane",
+      "email": "bbb@kennels.com",
+      "locationId": 2
     },
     {
       "id": 3,
       "name": "Chris Baldwin",
-      "address": "3621 Swanvale Ln"
+      "address": "3621 Swanvale Ln",
+      "email": "ccc@kennels.com",
+      "locationId": 1
     },
     {
       "id": 4,
       "name": "Don Matt",
-      "address": "4620 Echelon Circle"
+      "address": "4620 Echelon Circle",
+      "email": "ddd@kennels.com",
+      "locationId": 5
     },
     {
       "id": 5,
       "name": "Katy Michell",
-      "address": "1821 Long Dr"
+      "address": "1821 Long Dr",
+      "email": "eee@kennels.com",
+      "locationId": 6
+    },
+    {
+      "name": "Punam Ahire",
+      "address": "112 Point Given Way",
+      "locationId": 4,
+      "id": 6,
+      "email": "fff@kennels.com"
+    },
+    {
+      "email": "elsa@kennels.com",
+      "name": "Elsa Arendale",
+      "id": 7
     }
   ],
   "employees": [
